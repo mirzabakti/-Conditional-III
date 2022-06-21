@@ -5,3 +5,5 @@ let num2 = 10;
 
 // your code here
 let numberDuplicateCheck;
+
+num1 === num2 ? true : false;
