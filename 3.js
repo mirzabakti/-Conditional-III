@@ -18,3 +18,34 @@ let inputRemote; // Number (Random dari 1 - 26)
 let channelTV;
 
 // your code here
+
+inputRemote = Math.floor(Math.random() * 26) + 1;
+
+switch (inputRemote) {
+    case 1:
+        channelTV = "TVRI";
+        break;
+    case 2:
+        channelTV = "MNCTV";
+        break;
+    case 3:
+        channelTV = "INDONESIA";
+        break;
+    case 4:
+        channelTV = "ANTV";
+        break;
+    case 5:
+        channelTV = "RCTI";
+        break;
+    case 6:
+        channelTV = "SCTV";
+        break;
+    case 7:
+        channelTV = "TRANS7";
+        break;
+    default:
+        console.log("Error, sepertinya harus ganti remote nih");
+        break;
+}
+
+console.log(`Input remote rusak adalah channel ke-${inputRemote} dan hasilnya adalah channel ${channelTV}`);
